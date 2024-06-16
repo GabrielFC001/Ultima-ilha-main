@@ -1,0 +1,183 @@
+html,
+body {
+  width: 100%;
+  display: flex;
+  background-image: url("img\ one\ piece.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Bungee Spice", sans-serif;
+  font-size: 20px;
+}
+
+
+#principal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  font-size: 20px;
+}
+
+
+img {
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px -8px #ffffff;
+}
+
+
+button {
+  width: 15%;
+  height: 70px;
+  padding: 16px 0px;
+  margin: 25px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  text-transform: uppercase;
+  font-family: "Bungee Spice", sans-serif;
+  letter-spacing: 1px;
+  background-color: #ffffff96;
+}
+
+
+button:hover {
+  cursor: pointer;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(242,113,0,1) 100%);
+}
+
+
+#btn1:hover, #btn2:hover, #btnc1:hover, #btnc2:hover, #btns1:hover, #btns2:hover, #btes1:hover, #btes2:hover, #btfn:hover {
+  cursor: pointer;
+}
+
+
+#ilu {
+  width: 15%;
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px;
+  margin: 0 auto; /* Isso centraliza horizontalmente */
+  text-align: center; /* Isso centraliza o texto dentro da div */
+}
+
+
+#ilu img {
+  display: block; /* Isso garante que a imagem será centralizada corretamente */
+  margin: 0 auto; /* Isso centraliza horizontalmente a imagem */
+}
+
+
+#esc {
+  width: 15%;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+
+.h13 {
+  width: 30%;
+  background-color:rgba(0, 0, 0, 0.534);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 10px 40px -8px  hsl(187, 100%, 89%);
+}
+
+
+#h3 {
+  width: 30%;
+  background-color:rgba(0, 0, 0, 0.534);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 10px 40px -8px hsl(187, 100%, 89%);
+}
+
+
+#tambor {
+  width: 30%;
+  background-color:rgba(0, 0, 0, 0.534);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 10px 40px -8px hsl(187, 100%, 89%);
+}
+
+#ganhou {
+  width: 30%;
+  background-color:rgba(0, 0, 0, 0.534);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 10px 40px -8px hsl(187, 100%, 89%);
+}
+
+#ilha {
+  width: 30%;
+  background-color:rgba(0, 0, 0, 0.534);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 10px 40px -8px hsl(187, 100%, 89%);
+}
+
+
+#tesouro {
+  width: 30%;
+  background-color:rgba(0, 0, 0, 0.534);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 10px 40px -8px hsl(187, 100%, 89%);
+}
+
+
+
+#navegar {
+  width: 30%;
+  background-color:rgba(0, 0, 0, 0.534);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 10px 40px -8px hsl(187, 100%, 89%);
+}
+
+
+.p3 {
+  width: 15%;
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+#kaido {
+  width: 400px;
+  height: 300px;
+  float: left;
+  margin-right: 30px;
+}
+
+
+#luffy {
+  width: 400px;
+  height: 300px;
+  float: left;
+  margin-right: 30px;
+}
+
+
+#btn1 {
+  float: right;
+  margin-left: 20px;
+}
+
+
+#btn2 {
+  float: left;
+  margin-right: 20px;
+}
+
+
+#caminho1 {
+  width: 250px;
+  height: 250px;
+  float: left;
+  margin-right: 5px;
+}
